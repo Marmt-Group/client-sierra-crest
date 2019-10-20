@@ -134,7 +134,7 @@ add_action( 'widgets_init', 'sierra_crest_2019_widgets_init' );
  */
 function sierra_crest_2019_scripts() {
 	
-	wp_enqueue_style( 'custom-google-fonts', 'http://fonts.googleapis.com/css?family=Lato:400,400i|Montserrat:300,400,500,600,700&subset=latin', false );
+	wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Lato:400,400i|Montserrat:300,400,500,600,700&subset=latin', false );
 	wp_enqueue_style( 'bootstrap-styles', get_template_directory_uri() . '/assets/css/bootstrap.min.css');
 	wp_enqueue_style( 'animsition-styles', get_template_directory_uri() . '/assets/css/animsition.css');
 	wp_enqueue_style( 'animate-styles', get_template_directory_uri() . '/assets/css/animate.css');
