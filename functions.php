@@ -84,6 +84,19 @@ endif;
 add_action( 'after_setup_theme', 'sierra_crest_2019_setup' );
 
 /**
+ * Widgets
+ */
+
+register_sidebar(array(
+	'name' => 'Footer Posts',
+	'id' => 'posts',
+	'before_widget' => '<li id="%1$s" class="widget %2$s">',
+	'after_widget' => '</li>',
+	'before_title' => '<h3><span>',
+	'after_title' => '</span></h3>'
+));
+
+/**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
  * Priority 0 to make it available to lower priority callbacks.
@@ -148,6 +161,7 @@ function sierra_crest_2019_scripts() {
 	wp_enqueue_script( 'vegas-scripts', get_template_directory_uri() . '/js/vegas.js', array(), '20151215', true );
 	wp_enqueue_script( 'owlCarousel-scripts', get_template_directory_uri() . '/js/owlCarousel.js', array(), '20151215', true );
 	wp_enqueue_script( 'cube-portfolio-scripts', get_template_directory_uri() . '/js/cube.portfolio.js', array(), '20151215', true );
+	wp_enqueue_script( 'magnific-popup-scripts', get_template_directory_uri() . '/js/magnific-popup.min.js', array(), '20151215', true );
 	wp_enqueue_script( 'skip-link-focus-fix-scripts', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 	wp_enqueue_script( 'main-scripts', get_template_directory_uri() . '/js/main.js', array(), '20151215', true );
 

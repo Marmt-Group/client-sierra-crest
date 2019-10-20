@@ -307,6 +307,7 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #107f3f; text
 
 /* Extra classes
 -------------------------------------------------------------- */
+.fas {font-family: "FontAwesome"; font-style: normal;}
 .line-height-normal { line-height: normal; }
 .no-padding { padding: 0 !important; }
 .no-margin { margin: 0 !important; }
@@ -564,6 +565,49 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #107f3f; text
 	}
 }
 
+/* Works Section
+-------------------------------------------------------------- */
+#works {
+	background-color: #f7f7f7;
+}
+
+#works .fa-arrows-alt {color: #ffffff;}
+#works .fa-arrows-alt:hover {color: #cecece;}
+
+/* Facts Section
+-------------------------------------------------------------- */
+#facts .accent-type .text {
+	color: black;
+}
+
+/* Features Section
+-------------------------------------------------------------- */
+#features #about-us p {
+	font-size: 16px;
+}
+
+/* Projects Section
+-------------------------------------------------------------- */
+.cbp-popup-lightbox-title, .cbp-popup-lightbox-counter {font-size: 16px;}
+
+.single-post .site-main {
+	background: #f7f7f7;
+}
+
+/* Blog Page
+-------------------------------------------------------------- */
+.page-template-template-blog .site-main, .single-post .site-main {
+	padding-top: 50px !important;
+}
+
+/* Footer Widget Section
+-------------------------------------------------------------- */
+#footer-widgets .posts-widget {list-style: none;}
+#footer-widgets h3 {color: #ffffff;}
+#footer-widgets .posts-widget {margin-left: 0; margin-top: 85px;}
+@media(min-width: 992px) {
+	#footer-widgets .posts-widget {margin-left: 35px;}
+}
 
 /* Top Bar
 -------------------------------------------------------------- */

@@ -48,6 +48,9 @@
                 // Popup Images
                 self.popupImage();
 
+                // Popup Videos
+                self.popupVideo();
+
                 // Mobile Navigation
                 self.mobileNav();
 
@@ -338,6 +341,22 @@
                         removalDelay: 160,
                         preloader: false,
                         fixedContentPos: true
+                    });
+                });
+            }
+        },
+
+        popupVideo: function() {
+            if ($().magnificPopup) {
+                console.log('yes')
+                $('.popup-video').each(function () {
+                    $(this).magnificPopup({
+                        disableOn: 700,
+                        type: 'iframe',
+                        mainClass: 'mfp-fade',
+                        removalDelay: 160,
+                        preloader: false,
+                        fixedContentPos: false
                     });
                 });
             }

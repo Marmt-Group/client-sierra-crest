@@ -20,58 +20,24 @@
 				<div class="col-md-3">
 					<div class="widget widget_about margin-bottom-25">
 						<div class="margin-bottom-35">
-							<img src="assets/img/logo-light@2x.png" width="204" height="30" alt="image" />
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logo-white.png" width="204" height="30" alt="image" />
 						</div>
-						<p>Nullam vel enim risus. Integer rhoncus hendrerit sem egestas porttitor.</p>
+						<p><i>Our attention to detail is the difference!</i></p>
 					</section>
 
 					<section class="widget widget_information">
 						<ul class="info-wrap">
-							<li class="address item">1 Beverly Hills, Los Angeles, California, 90210, United States</li>
-							<li class="phone item">+1 (390) 379 3368, +1 (390) 379 6868</li>
-							<li class="email item">contact@construction.com</li>
+							<li class="address item">4115 Blackhawk Plaza Circle, Ste. 100, Danville CA 94506</li>
+							<li class="phone item"><a href="tel:+19253628898">925-362-8898</a></li>
+							<li class="email item"><a href="mailto:ddavis@sierracrestconstruction.com">ddavis@sierracrestconstruction.com</a></li>
 						</ul>
 					</div>
 				</div>
 
-				<div class="col-md-3">
-					<div class="widget widget_tag_cloud">
-						<h2 class="widget-title">Popular tags</h2>
-						<div class="tagcloud">
-							<a href="#">Architectural</a>
-							<a href="#">Builder</a>
-							<a href="#">Fire</a>
-							<a href="#">Building</a>
-							<a href="#">Garden design</a>
-							<a href="#">Interior</a>
-							<a href="#">Marketing events</a>
-							<a href="#">ThemeForest</a>
-							<a href="#">Construction</a>
-							<a href="#">Exterior</a>
-							<a href="#">Highway</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3">
-					<div class="widget widget_links">
-						<h2 class="widget-title">Useful links</h2>
-						
-						<ul class="links col2">
-							<li><a href="#">Home</a></li>
-							<li class="last"><a href="#">Help Center</a></li>
-							<li><a href="#">Portfolio</a></li>
-							<li class="last"><a href="#">Term of Use</a></li>
-							<li><a href="#">Services</a></li>
-							<li class="last"><a href="#">About Us</a></li>
-							<li><a href="#">News</a></li>
-							<li class="last"><a href="#">Conditions</a></li>
-							<li><a href="#">Contact</a></li>
-							<li class="last"><a href="#">Conditions</a></li>
-							<li><a href="#">Our Shop</a></li>
-							<li class="last"><a href="#">Privacy Legal</a></li>
-						</ul>
-					</div>
+				<div class="col-md-6">
+					<ul class="posts-widget">
+						<?php dynamic_sidebar( 'posts' ); ?>
+					</ul>
 				</div>
 
 				<!-- <div class="col-md-3">
@@ -135,18 +101,15 @@
         <div class="bottom-bar-inner-wrap">
         
             <div class="bottom-bar-content">
-                <div id="copyright">CONSTRUCTION • ULTIMATE CONSTRUCTION TEMPLATE.
+                <div id="copyright">&copy; <?php echo date("Y"); ?> Sierra Crest Construction, Inc.
                 </div><!-- /#copyright -->
             </div><!-- /.bottom-bar-content -->
 
             <div class="bottom-bar-menu">
                 <ul class="bottom-nav">
-                    <li><a href="#/">HOME</a></li>
-                    <li><a href="#/">ABOUT</a></li>
-                    <li><a href="#/">SERVICES</a></li>
-                    <li><a href="#/">CONTACT</a></li>
+                    <li><a href="/industry-news">Industry News</a></li>
                 </ul>       
-            </div><!-- /.bottom-bar-menu -->
+            </div>
         </div>
     </div>
 </div>

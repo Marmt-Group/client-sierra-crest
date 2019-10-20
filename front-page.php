@@ -9,17 +9,17 @@ get_header();
 ?>
 
 <!-- Hero Background SlideShow -->
-<div id="hero-section" data-number="3" data-image-1="<?php echo get_template_directory_uri() ?>/assets/img/slider/1.jpg" data-image-2="<?php echo get_template_directory_uri() ?>/assets/img/slider/2.jpg" data-image-3="<?php echo get_template_directory_uri() ?>/assets/img/slider/3.jpg" data-effect="fade">
+<div id="hero-section" data-number="3" data-image-1="<?php echo get_template_directory_uri() ?>/assets/img/slider/MG_2366.webp" data-image-2="<?php echo get_template_directory_uri() ?>/assets/img/slider/family-room.webp" data-image-3="<?php echo get_template_directory_uri() ?>/assets/img/slider/MG_5466.webp" data-effect="fade">
     <div class="hero-content">
         <div class="hero-title">
-            <h1>BUILDER &amp; REPAIR.</h1>
-            <h1>BUILD SMART BUILDINGS.</h1>
-            <h1>WE ARE CONSTRUCTION.</h1>
+            <h1>We are Sierra Crest.</h1>
+            <h1>Our attention to detail-</h1>
+            <h1>is the difference!</h1>
         </div>
 
         <div class="links">
-            <a class="wprt-button big rounded-3px" href="page-about.html">LEAR MORE</a>
-            <a class="link" href="page-portfolio-grid.html">OUR FOLIO</a>
+            <a class="wprt-button big rounded-3px scroll-target" href="#features">LEARN MORE</a>
+            <a class="link scroll-target" href="#works">OUR FOLIO</a>
         </div>
     </div>
 
@@ -32,110 +32,110 @@ get_header();
         <div id="site-content" class="site-content clearfix">
             <div id="inner-content" class="inner-content-wrap">
                 <div class="page-content">
-                    <!-- Intro -->
-                    <section class="wprt-section intro">
+
+                    <!-- OFFER -->
+                    <section id="features" class="wprt-section">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="wprt-spacer" data-desktop="110" data-mobi="40" data-smobi="40"></div>
+                                    <div class="wprt-spacer" data-desktop="100" data-mobi="40" data-smobi="40"></div>
+
+                                    <h2 class="text-center margin-bottom-20">WHAT WE OFFER</h2>
+                                    <div class="wprt-lines style-2 custom-1">
+                                        <div class="line-1"></div>
+                                    </div>
+
+                                    <div class="wprt-spacer" data-desktop="36" data-mobi="30" data-smobi="30"></div>
+
+                                    <p class="wprt-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet iaculis elit. Nam semper ut arcu non placerat. Praesent nibh massa varius.</p>
+                                    <div class="wprt-spacer" data-desktop="40" data-mobi="30" data-smobi="30"></div>
                                 </div><!-- /.col-md-12 -->
 
-                                <div class="col-md-4">
-
-                                    <div class="service-item clearfix text-center">
-                                        <div class="thumb"><img src="<?php echo get_template_directory_uri() ?>/assets/img/services/4.jpg" alt="image" /></div>
-                                        <div class="service-item-wrap">
-                                            <h3 class="title font-size-18"><a href="#">Construction Consultant</a></h3>
-                                            <p class="desc">Sed sit amet sapien sit amet odio lobortis ullamcorper quis vel nisl. Nam blandit maximus tristique. Vivamus enim quam, tincidunt vel blandit eu, molestie eget arcu.</p>
-                                            <div class="link">
-                                                <a href="#" class="wprt-button small rounded-3px">READ MORE</a>
-                                            </div>
+                                <div class="col-md-2">
+                                    <div class="wprt-icon-text">
+                                        <div class="icon">
+                                            <i class="icon-o-ruler-2"></i>
                                         </div>
+                                        <h3><a href="#">CONSULTING</a></h3>
                                     </div>
 
-                                    <div class="wprt-spacer" data-desktop="0" data-mobi="40" data-smobi="40"></div>
+                                    <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="wprt-icon-text">
+                                        <div class="icon">
+                                            <i class="icon-o-helmet"></i>
+                                        </div>
+                                        <h3><a href="#">CONSTRUCTION</a></h3>
+                                    </div>
+
+                                    <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="wprt-icon-text">
+                                        <div class="icon">
+                                            <i class="icon-o-paint-roller"></i>
+                                        </div>
+                                        <h3><a href="#">REMODELING</a></h3>
+                                    </div>
+
+                                    <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
+                                </div>
+
+                                
+                                <div class="col-md-2">
+                                    <div class="wprt-icon-text">
+                                        <div class="icon">
+                                            <i class="icon-o-drawing-1"></i>
+                                        </div>
+                                        <h3><a href="#">ARCHITECTURE</a></h3>
+                                    </div>
+
+                                    <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="wprt-icon-text">
+                                        <div class="icon">
+                                            <i class="icon-garden-fence"></i>
+                                        </div>
+                                        <h3><a href="#">LANDSCAPING</a></h3>
+                                    </div>
+                                </div>
+
+
+                                <div id="about-us" class="col-md-8">
+                                    <div class="wprt-spacer" data-desktop="59" data-mobi="30" data-smobi="20"></div>
+
+                                    <div class="content-wrap">
+                                    <p style="text-indent: 2em;">California homeowners have trusted Sierra Crest Construction to build and remodel their homes for more than 30 years. We specialize in kitchen remodels, major expansions as well as new home construction. Sierra Crest has the skills to bring your ideas to life. I'm Dave Davis, owner of Sierra Crest Construction; my team brings years of experience to your project and will help you visualize and build your dream. We understand that the work we do involves a dream you have for your home. Every project the company takes on comes with a promise to meet your expectations and bring your project on time and in budget! Learn how easy it is to start transforming your home by contacting us today!</p>
+                                    <p><img src="<?php echo get_template_directory_uri() ?>/assets/img/Dave_Signature.jpg" style="width: auto; height: 75px;"></p>
+                                    <p>Owner, Sierra Crest Construction</p>
+                                    </div>
+
+                                    <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="20"></div>
                                 </div><!-- /.col-md-4 -->
 
                                 <div class="col-md-4">
-                                    <div class="service-item clearfix text-center">
-                                        <div class="thumb"><img src="<?php echo get_template_directory_uri() ?>/assets/img/services/5.jpg" alt="image" /></div>
-                                        <div class="service-item-wrap">
-                                            <h3 class="title font-size-18"><a href="#">Resconstruction Services</a></h3>
-                                            <p class="desc">Sed sit amet sapien sit amet odio lobortis ullamcorper quis vel nisl. Nam blandit maximus tristique. Vivamus enim quam, tincidunt vel blandit eu, molestie eget arcu.</p>
-                                            <div class="link">
-                                                <a href="#" class="wprt-button small rounded-3px">READ MORE</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="wprt-spacer" data-desktop="0" data-mobi="40" data-smobi="40"></div>
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/man.png" alt="image" />
                                 </div><!-- /.col-md-4 -->
 
-                                <div class="col-md-4">
-                                    <div class="service-item clearfix text-center">
-                                        <div class="thumb"><img src="<?php echo get_template_directory_uri() ?>/assets/img/services/6.jpg" alt="image" /></div>
-                                        <div class="service-item-wrap">
-                                            <h3 class="title font-size-18"><a href="#">Architectural Design</a></h3>
-                                            <p class="desc">Sed sit amet sapien sit amet odio lobortis ullamcorper quis vel nisl. Nam blandit maximus tristique. Vivamus enim quam, tincidunt vel blandit eu, molestie eget.</p>
-                                            <div class="link">
-                                                <a href="#" class="wprt-button small rounded-3px">READ MORE</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- /.col-md-4 -->
-
-                                <div class="col-md-12">
-                                    <div class="wprt-spacer" data-desktop="110" data-mobi="40" data-smobi="40"></div>
-                                </div><!-- /.col-md-12 -->
                             </div><!-- /.row -->
                         </div><!-- /.container -->
                     </section>
 
-                    <!-- FACTS -->
-                    <section id="facts" class="wprt-section parallax">
+                    <!-- PROMOTION -->
+                    <section id="promotion" class="wprt-section">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="wprt-spacer" data-desktop="100" data-mobi="60" data-smobi="60"></div>
-                                </div><!-- /.col-md-12 -->
+                                    <div class="wprt-spacer" data-desktop="8" data-mobi="0" data-smobi="0"></div>
+                                    <a class="popup-video" href="https://www.youtube.com/watch?rel=0&autoplay=1&v=MATN6OReXeU"><h2 class="text-white text-center font-size-24 margin-bottom-0">Our attention to detail is the difference!</h2><h2 class="text-white text-center font-size-24 margin-bottom-0">Watch this video <i class="fas fa-play-circle"></i></h2> </a>
+                                    <div class="wprt-spacer" data-desktop="0" data-mobi="20" data-smobi="20"></div>
+                                </div><!-- /.col-md-8 -->
 
-                                <div class="col-md-3">
-                                    <div class="wprt-counter text-center accent-type">
-                                        <div class="number" data-speed="5000" data-to="1240" data-in-viewport="yes">500+</div>
-                                        <div class="text">PROJECTS COMPLETED</div>
-                                    </div>
-
-                                    <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
-                                </div><!-- /.col-md-3 -->
-
-                                <div class="col-md-3">
-                                    <div class="wprt-counter text-center accent-type has-plus">
-                                        <div class="number" data-speed="5000" data-to="1750" data-in-viewport="yes">1000+</div>
-                                        <div class="text">HAPPY CLIENTS</div>
-                                    </div>
-
-                                    <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
-                                </div><!-- /.col-md-3 -->
-
-                                <div class="col-md-3">
-                                    <div class="wprt-counter text-center accent-type">
-                                        <div class="number" data-speed="5000" data-to="984" data-in-viewport="yes">12+</div>
-                                        <div class="text">WORKERS EMPLOYED</div>
-                                    </div>
-
-                                    <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
-                                </div><!-- /.col-md-3 -->
-
-                                <div class="col-md-3">
-                                    <div class="wprt-counter text-center accent-type">
-                                        <div class="number" data-speed="5000" data-to="96" data-in-viewport="yes">12</div>
-                                        <div class="text">AWARDS WON</div>
-                                    </div>
-                                </div><!-- /.col-md-3 -->
-
-                                <div class="col-md-12">
-                                    <div class="wprt-spacer" data-desktop="103" data-mobi="60" data-smobi="60"></div>
-                                </div><!-- /.col-md-12 -->
                             </div><!-- /.row -->
                         </div><!-- /.container -->
                     </section>
@@ -158,370 +158,169 @@ get_header();
                         </div><!-- /.container -->
 
                         <div class="wprt-project" data-layout="grid" data-column="4" data-column2="3" data-column3="2" data-column4="1" data-gaph="0" data-gapv="0">
-                            <div id="project-filter">
+
+                        <div id="project-filter">
                                 <div data-filter="*" class="cbp-filter-item">
                                     <span>All</span>
                                 </div>
-                                <div data-filter=".architecture" class="cbp-filter-item">
-                                    <span>Architecture</span>
-                                </div>
-                                <div data-filter=".building" class="cbp-filter-item">
-                                    <span>Building</span>
-                                </div>
-                                <div data-filter=".garden" class="cbp-filter-item">
-                                    <span>Garden</span>
-                                </div>
-                                <div data-filter=".interior" class="cbp-filter-item">
-                                    <span>Interior</span>
-                                </div>
-                                <div data-filter=".office" class="cbp-filter-item">
-                                    <span>Office</span>
-                                </div>
-                                <div data-filter=".workspace" class="cbp-filter-item">
-                                    <span>Workspace</span>
-                                </div>
-                            </div><!-- /#project-filter -->
+                            <?php
+                                $taxonomies = get_object_taxonomies( array( 'post_type' => 'projects' ) ); 
+                                
+                                foreach( $taxonomies as $taxonomy ) : // Gets every "category" (term) in this taxonomy to get the respective posts 
+                                $terms = get_terms( $taxonomy ); ?> 
+                                
+                                    <?php foreach( $terms as $term ) : ?> 
+                                    <div data-filter=".<?php echo $term->slug; ?>" class="cbp-filter-item">
+                                        <span><?php echo $term->name; ?></span>
+                                    </div>
+                                <?php
+                                    endforeach;
+                                endforeach;
+                            ?>
+  
+                        </div><!-- /#project-filter -->
 
                             <div id="projects" class="cbp">
-                                <div class="cbp-item architecture interior workspace">
+
+                            <?php 
+                            
+                            $args = array(
+                                'post_type' => 'projects',
+                                'post_status' => 'publish',
+                                'posts_per_page' => -1
+                            );
+
+                            $projects = new WP_Query( $args );
+                            if ( $projects->have_posts() ) :
+                                while ( $projects->have_posts() ) : $projects->the_post();
+                                // Set variables
+                                $thumbnail_image = get_field('image_thumbnail');
+                                $large_image = get_field('image_large');
+                                $post_id = get_the_ID();
+                                $terms = wp_get_post_terms( $post_id, 'project_categories');
+                                // Output
+                                ?>
+
+                                <div class="cbp-item <?php foreach ($terms as $term) echo $term->slug, ' ' ?>">
                                     <div class="project-item">
                                         <div class="inner">
                                             <div class="grid">
-                                            <figure class="effect-zoe">
-                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/projects/1.jpg" alt="image" />
-                                                <figcaption>
-                                                    <div>
-                                                        <h2><a target="_blank" href="page-project-detail.html">LUXURY BUILDINGS</a></h2>
-                                                        <p>Construction</p>
-                                                    </div>
-                                                </figcaption>           
-                                            </figure>
+                                                <figure class="effect-honey">
+                                                    <img src="<?php echo $thumbnail_image; ?>" alt="image" />
+                                                    <figcaption>
+                                                        <div>
+                                                            <h2 style="text-transform:uppercase;">CUSTOM <?php foreach ($terms as $term) echo $term->name, ' '; ?></h2>
+                                                            <p>Construction</p>
+                                                        </div>
+                                                    </figcaption>           
+                                                </figure>
                                             </div>
 
-                                            <a class="project-zoom cbp-lightbox" href="assets/img/projects/1-full.jpg" data-title="LUXURY BUILDINGS">
+                                            <a class="project-zoom cbp-lightbox font-size-30" href="<?php echo $large_image; ?>" data-title="Custom <?php foreach ($terms as $term) echo $term->name, ' '; ?> / Image #: <?php echo $post_id; ?>">
                                                 <i class="fa fa-arrows-alt"></i>
                                             </a>
                                         </div>
                                     </div>
                                 </div><!--/.cbp-item -->
 
-                                <div class="cbp-item building office workspace">
-                                    <div class="project-item">
-                                        <div class="inner">
-                                            <div class="grid">
-                                            <figure class="effect-honey">
-                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/projects/2.jpg" alt="image" />
-                                                <figcaption>
-                                                    <div>
-                                                        <h2><a target="_blank" href="page-project-detail.html">LUXURY BUILDINGS</a></h2>
-                                                        <p>Construction</p>
-                                                    </div>
-                                                </figcaption>           
-                                            </figure>
-                                            </div>
+                                <?php
+                                endwhile;
+                                wp_reset_postdata();
+                            endif;
+                            
+                            ?>
 
-                                            <a class="project-zoom cbp-lightbox" href="assets/img/projects/2-full.jpg" data-title="LUXURY BUILDINGS">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div><!--/.cbp-item -->
-
-                                <div class="cbp-item architecture garden interior">
-                                    <div class="project-item">
-                                        <div class="inner">
-                                            <div class="grid">
-                                            <figure class="effect-oscar">
-                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/projects/3.jpg" alt="image" />
-                                                <figcaption>
-                                                    <div>
-                                                        <h2><a target="_blank" href="page-project-detail.html">LUXURY BUILDINGS</a></h2>
-                                                        <p>Construction</p>
-                                                    </div>
-                                                </figcaption>           
-                                            </figure>
-                                            </div>
-
-                                            <a class="project-zoom cbp-lightbox" href="assets/img/projects/3-full.jpg" data-title="LUXURY BUILDINGS">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div><!--/.cbp-item -->
-
-                                <div class="cbp-item building interior workspace">
-                                    <div class="project-item">
-                                        <div class="inner">
-                                            <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/projects/4.jpg" alt="image" />
-                                                <figcaption>
-                                                    <div>
-                                                        <h2><a target="_blank" href="page-project-detail.html">LUXURY BUILDINGS</a></h2>
-                                                        <p>Construction</p>
-                                                    </div>
-                                                </figcaption>           
-                                            </figure>
-                                            </div>
-
-                                            <a class="project-zoom cbp-lightbox" href="assets/img/projects/4-full.jpg" data-title="LUXURY BUILDINGS">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div><!--/.cbp-item -->
-
-                                <div class="cbp-item garden office workspace">
-                                    <div class="project-item">
-                                        <div class="inner">
-                                            <div class="grid">
-                                            <figure class="effect-zoe">
-                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/projects/5.jpg" alt="image" />
-                                                <figcaption>
-                                                    <div>
-                                                        <h2><a target="_blank" href="page-project-detail.html">LUXURY BUILDINGS</a></h2>
-                                                        <p>Construction</p>
-                                                    </div>
-                                                </figcaption>           
-                                            </figure>
-                                            </div>
-
-                                            <a class="project-zoom cbp-lightbox" href="assets/img/projects/5-full.jpg" data-title="LUXURY BUILDINGS">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div><!--/.cbp-item -->
-
-                                <div class="cbp-item architecture garden office">
-                                    <div class="project-item">
-                                        <div class="inner">
-                                            <div class="grid">
-                                            <figure class="effect-honey">
-                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/projects/6.jpg" alt="image" />
-                                                <figcaption>
-                                                    <div>
-                                                        <h2><a target="_blank" href="page-project-detail.html">LUXURY BUILDINGS</a></h2>
-                                                        <p>Construction</p>
-                                                    </div>
-                                                </figcaption>           
-                                            </figure>
-                                            </div>
-
-                                            <a class="project-zoom cbp-lightbox" href="assets/img/projects/6-full.jpg" data-title="LUXURY BUILDINGS">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div><!--/.cbp-item -->
-
-                                <div class="cbp-item architecture garden office">
-                                    <div class="project-item">
-                                        <div class="inner">
-                                            <div class="grid">
-                                            <figure class="effect-oscar">
-                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/projects/7.jpg" alt="image" />
-                                                <figcaption>
-                                                    <div>
-                                                        <h2><a target="_blank" href="page-project-detail.html">LUXURY BUILDINGS</a></h2>
-                                                        <p>Construction</p>
-                                                    </div>
-                                                </figcaption>           
-                                            </figure>
-                                            </div>
-
-                                            <a class="project-zoom cbp-lightbox" href="assets/img/projects/7-full.jpg" data-title="LUXURY BUILDINGS">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div><!--/.cbp-item -->
-
-                                <div class="cbp-item architecture garden office">
-                                    <div class="project-item">
-                                        <div class="inner">
-                                            <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/projects/8.jpg" alt="image" />
-                                                <figcaption>
-                                                    <div>
-                                                        <h2><a target="_blank" href="page-project-detail.html">LUXURY BUILDINGS</a></h2>
-                                                        <p>Construction</p>
-                                                    </div>
-                                                </figcaption>           
-                                            </figure>
-                                            </div>
-
-                                            <a class="project-zoom cbp-lightbox" href="assets/img/projects/8-full.jpg" data-title="LUXURY BUILDINGS">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div><!--/.cbp-item -->
                             </div><!-- /#projects -->
                         </div><!--/.wprt-project -->
                     </section>
 
-                    <!-- OFFER -->
-                    <section id="features" class="wprt-section">
+                    <!-- FACTS -->
+                    <section id="facts" class="wprt-section parallax">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="wprt-spacer" data-desktop="100" data-mobi="40" data-smobi="40"></div>
-                                    <h2 class="text-center margin-bottom-20">WHAT WE OFFER</h2>
-                                    <div class="wprt-lines style-2 custom-1">
-                                        <div class="line-1"></div>
-                                    </div>
-
-                                    <div class="wprt-spacer" data-desktop="36" data-mobi="30" data-smobi="30"></div>
-
-                                    <p class="wprt-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet iaculis elit. Nam semper ut arcu non placerat. Praesent nibh massa varius.</p>
-                                    <div class="wprt-spacer" data-desktop="40" data-mobi="30" data-smobi="30"></div>
+                                    <div class="wprt-spacer" data-desktop="100" data-mobi="60" data-smobi="60"></div>
                                 </div><!-- /.col-md-12 -->
 
-                                <div class="col-md-2">
-                                    <div class="wprt-icon-text">
-                                        <div class="icon">
-                                            <i class="icon-o-helmet"></i>
-                                        </div>
-                                        <h3><a href="#">CONSTRUCTION</a></h3>
+                                <div class="col-md-3">
+                                    <div class="wprt-counter text-center accent-type has-plus">
+                                        <div class="number" data-speed="3000" data-to="500" data-in-viewport="yes">500</div>
+                                        <div class="text">PROJECTS COMPLETED</div>
                                     </div>
 
                                     <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
-                                </div>
+                                </div><!-- /.col-md-3 -->
 
-                                <div class="col-md-2">
-                                    <div class="wprt-icon-text">
-                                        <div class="icon">
-                                            <i class="icon-o-paint-roller"></i>
-                                        </div>
-                                        <h3><a href="#">RENOVATION</a></h3>
+                                <div class="col-md-3">
+                                    <div class="wprt-counter text-center accent-type has-plus">
+                                        <div class="number" data-speed="3000" data-to="1000" data-in-viewport="yes">1000</div>
+                                        <div class="text">HAPPY CLIENTS</div>
                                     </div>
 
                                     <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
-                                </div>
+                                </div><!-- /.col-md-3 -->
 
-                                <div class="col-md-2">
-                                    <div class="wprt-icon-text">
-                                        <div class="icon">
-                                            <i class="icon-o-ruler-2"></i>
-                                        </div>
-                                        <h3><a href="#">CONSULTING</a></h3>
+                                <div class="col-md-3">
+                                    <div class="wprt-counter text-center accent-type">
+                                        <div class="number" data-speed="3000" data-to="12" data-in-viewport="yes">12+</div>
+                                        <div class="text">WORKERS EMPLOYED</div>
                                     </div>
 
                                     <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
-                                </div>
+                                </div><!-- /.col-md-3 -->
 
-                                <div class="col-md-2">
-                                    <div class="wprt-icon-text">
-                                        <div class="icon">
-                                            <i class="icon-o-tools-1"></i>
-                                        </div>
-                                        <h3><a href="#">CONSTRUCT</a></h3>
+                                <div class="col-md-3">
+                                    <div class="wprt-counter text-center accent-type">
+                                        <div class="number" data-speed="3000" data-to="12" data-in-viewport="yes">12</div>
+                                        <div class="text">AWARDS WON</div>
                                     </div>
+                                </div><!-- /.col-md-3 -->
 
-                                    <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
-                                </div>
-
-                                <div class="col-md-2">
-                                    <div class="wprt-icon-text">
-                                        <div class="icon">
-                                            <i class="icon-o-drawing-1"></i>
-                                        </div>
-                                        <h3><a href="#">ARCHITECTURE</a></h3>
-                                    </div>
-
-                                    <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
-                                </div>
-
-                                <div class="col-md-2">
-                                    <div class="wprt-icon-text">
-                                        <div class="icon">
-                                            <i class="icon-o-light-bulb-1"></i>
-                                        </div>
-                                        <h3><a href="#">ELECTRICAL</a></h3>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="wprt-spacer" data-desktop="118" data-mobi="80" data-smobi="50"></div>
-
-                                    <div class="wprt-icon-box accent-background rounded icon-effect-2 icon-left">
-                                        <div class="icon-wrap font-size-45">
-                                            <span class="dd-icon icon-drill-2"></span>
-                                        </div>
-                                        <div class="content-wrap">
-                                            <h3 class="dd-title font-size-18"><a href="#">Prepair Services</a></h3>
-                                            <p>Vestibulum eu libero volutpat, portas quam, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="wprt-spacer" data-desktop="43" data-mobi="30" data-smobi="20"></div>
-
-                                    <div class="wprt-icon-box accent-background rounded icon-effect-2 icon-left">
-                                        <div class="icon-wrap font-size-35">
-                                            <span class="dd-icon icon-tap-1"></span>
-                                        </div>
-                                        <div class="content-wrap">
-                                            <h3 class="dd-title font-size-18"><a href="#">Creative Plumbing</a></h3>
-                                            <p>Vestibulum eu libero volutpat, portas quam, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl.</p>
-                                        </div>
-                                    </div>
-                                </div><!-- /.col-md-4 -->
-
-                                <div class="col-md-4">
-                                    <div class="wprt-spacer" data-desktop="118" data-mobi="30" data-smobi="20"></div>
-
-                                    <div class="wprt-icon-box accent-background rounded icon-effect-2 icon-left">
-                                        <div class="icon-wrap font-size-35">
-                                            <span class="dd-icon icon-paint-roller-1"></span>
-                                        </div>
-                                        <div class="content-wrap">
-                                            <h3 class="dd-title font-size-18"><a href="#">Wall Painting</a></h3>
-                                            <p>Vestibulum eu libero volutpat, portas quam, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="wprt-spacer" data-desktop="43" data-mobi="30" data-smobi="20"></div>
-
-                                    <div class="wprt-icon-box accent-background rounded icon-effect-2 icon-left">
-                                        <div class="icon-wrap font-size-35">
-                                            <span class="dd-icon icon-roof"></span>
-                                        </div>
-                                        <div class="content-wrap">
-                                            <h3 class="dd-title font-size-18"><a href="#">Metal Roofing</a></h3>
-                                            <p>Vestibulum eu libero volutpat, portas quam, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="20"></div>
-                                </div><!-- /.col-md-4 -->
-
-                                <div class="col-md-4">
-                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/man.png" alt="image" />
-                                </div><!-- /.col-md-4 -->
-
+                                <div class="col-md-12">
+                                    <div class="wprt-spacer" data-desktop="103" data-mobi="60" data-smobi="60"></div>
+                                </div><!-- /.col-md-12 -->
                             </div><!-- /.row -->
                         </div><!-- /.container -->
                     </section>
 
+                    <!-- WHY US-->
+                    <section id="why-us" class="wprt-section">
+                        <div class="container-fluid no-padding">
+                            <div class="row no-margin">
+                                <div class="col-md-6 no-padding" style="background: url(<?php echo get_template_directory_uri() ?>/assets/img/thomas-home.webp) no-repeat; background-size: cover;">
+                                </div><!-- /.col-md-6 -->
 
-                    <!-- PROMOTION -->
-                    <section id="promotion" class="wprt-section">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <div class="wprt-spacer" data-desktop="8" data-mobi="0" data-smobi="0"></div>
-                                    <h2 class="text-white text-center-mobile font-size-20 margin-bottom-0">At your service since 1980</h2>
-                                    <div class="wprt-spacer" data-desktop="0" data-mobi="20" data-smobi="20"></div>
-                                </div><!-- /.col-md-8 -->
+                                <div class="col-md-6 no-padding">
+                                    <div class="wprt-content-box style-2">
+                                        <h2 class="margin-bottom-20">WHY CHOOSE US?</h2>
+                                        <div class="wprt-lines style-1 custom-2">
+                                            <div class="line-1"></div>
+                                        </div>
+                                        <div class="wprt-spacer" data-desktop="50" data-mobi="30" data-smobi="30"></div>
 
-                                <div class="col-md-4">
-                                    <div class="text-right text-center-mobile"><a href="/contact" class="wprt-button white rounded-3px">GET A QUOTE</a></div>
-                                </div><!-- /.col-md-4 -->
+                                        <div class="wprt-toggle bg-white style-1">
+                                            <h3 class="toggle-title">Employees have many years of experience</h3>
+                                            <div class="toggle-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
+                                        </div>
 
+                                        <div class="wprt-toggle bg-white active style-1">
+                                            <h3 class="toggle-title">Quality construction continues after the project</h3>
+                                            <div class="toggle-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
+                                        </div>
+
+                                        <div class="wprt-toggle bg-white style-1">
+                                            <h3 class="toggle-title">We use technology to do the job more quickly</h3>
+                                            <div class="toggle-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
+                                        </div>
+
+                                        <div class="wprt-toggle bg-white style-1">
+                                            <h3 class="toggle-title">Employees are continually trained on safety issues</h3>
+                                            <div class="toggle-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
+                                        </div>
+                                    </div><!-- /.wprt-content-box -->
+                                </div><!-- /.col-md-6 -->
                             </div><!-- /.row -->
-                        </div><!-- /.container -->
+                        </div><!-- /.container-fluid -->
                     </section>
 
                     <!-- TESTIMONIALS -->
@@ -640,296 +439,19 @@ get_header();
                         </div><!-- /.container -->
                     </section>
 
-                    <!-- WHY US-->
-                    <section id="why-us" class="wprt-section">
-                        <div class="container-fluid no-padding">
-                            <div class="row no-margin">
-                                <div class="col-md-6 no-padding">
-                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/group.jpg" alt="image">
-                                </div><!-- /.col-md-6 -->
-
-                                <div class="col-md-6 no-padding">
-                                    <div class="wprt-content-box style-2">
-                                        <h2 class="margin-bottom-20">WHY CHOOSE US?</h2>
-                                        <div class="wprt-lines style-1 custom-2">
-                                            <div class="line-1"></div>
-                                        </div>
-                                        <div class="wprt-spacer" data-desktop="50" data-mobi="30" data-smobi="30"></div>
-
-                                        <div class="wprt-toggle bg-white style-1">
-                                            <h3 class="toggle-title">Employees have many years of experience</h3>
-                                            <div class="toggle-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
-                                        </div>
-
-                                        <div class="wprt-toggle bg-white active style-1">
-                                            <h3 class="toggle-title">Quality construction continues after the project</h3>
-                                            <div class="toggle-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
-                                        </div>
-
-                                        <div class="wprt-toggle bg-white style-1">
-                                            <h3 class="toggle-title">We use technology to do the job more quickly</h3>
-                                            <div class="toggle-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
-                                        </div>
-
-                                        <div class="wprt-toggle bg-white style-1">
-                                            <h3 class="toggle-title">Employees are continually trained on safety issues</h3>
-                                            <div class="toggle-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
-                                        </div>
-                                    </div><!-- /.wprt-content-box -->
-                                </div><!-- /.col-md-6 -->
-                            </div><!-- /.row -->
-                        </div><!-- /.container-fluid -->
-                    </section>
-
-                    <!-- TEAM -->
-                    <section id="team" class="wprt-section">
+                    <!-- PROMOTION -->
+                    <section id="promotion" class="wprt-section">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-12">
-                                    <div class="wprt-spacer" data-desktop="100" data-mobi="40" data-smobi="40"></div>
-                                    <h2 class="text-center margin-bottom-20">OUR TEAM</h2>
-                                    <div class="wprt-lines style-2 custom-1">
-                                        <div class="line-1"></div>
-                                    </div>
+                                <div class="col-md-8">
+                                    <div class="wprt-spacer" data-desktop="8" data-mobi="0" data-smobi="0"></div>
+                                    <h2 class="text-white text-center-mobile font-size-20 margin-bottom-0">At your service since 1980</h2>
+                                    <div class="wprt-spacer" data-desktop="0" data-mobi="20" data-smobi="20"></div>
+                                </div><!-- /.col-md-8 -->
 
-                                    <div class="wprt-spacer" data-desktop="36" data-mobi="30" data-smobi="30"></div>
-
-                                    <p class="wprt-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet iaculis elit. Nam semper ut arcu non placerat. Praesent nibh massa varius.</p>
-
-                                    <div class="wprt-spacer" data-desktop="40" data-mobi="30" data-smobi="30"></div>
-
-                                    <div class="wprt-team has-bullets bullet-style-1" data-layout="slider" data-column="4" data-column2="3" data-column3="2" data-column4="1" data-gaph="30" data-gapv="30">
-                                        <div id="team-wrap" class="cbp">
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/team/1.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                                <li class="linkedin"><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">Richard Wagner</h4>
-                                                            <div class="position">Civil Engineer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/team/2.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">Sarah Spence</h4>
-                                                            <div class="position">Construction Assistant</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/team/3.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">John Halpern</h4>
-                                                            <div class="position">Construction Manager</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/team/4.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                                <li class="linkedin"><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">Tommy Atkins</h4>
-                                                            <div class="position">Electricians</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/team/1.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">John Joe</h4>
-                                                            <div class="position">Junior Architect</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/team/2.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                                <li class="linkedin"><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">Richard Wagner</h4>
-                                                            <div class="position">Civil Engineer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/team/3.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">Sarah Spence</h4>
-                                                            <div class="position">Construction Assistant</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/team/4.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">John Halpern</h4>
-                                                            <div class="position">Construction Manager</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/team/1.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                                <li class="linkedin"><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">Tommy Atkins</h4>
-                                                            <div class="position">Electricians</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div><!-- /#team-wrap -->
-                                    </div><!-- /.wprt-team -->
-
-                                    <div class="wprt-spacer" data-desktop="70" data-mobi="50" data-smobi="40"></div>
-                                </div><!-- /.col-md-12 -->
-                           </div><!-- /.row -->
-                        </div><!-- /.container -->
-                    </section>
-
-                    <!-- PARTNERS -->
-                    <section id="partners" class="wprt-section">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="wprt-spacer" data-desktop="50" data-mobi="50" data-smobi="40"></div>
-
-                                    <div class="wprt-partners">
-                                        <div class="owl-carousel">
-                                            <div class="partner">
-                                                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/partners/1.png" alt="image" /></a>
-                                            </div>
-
-                                            <div class="partner">
-                                                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/partners/2.png" alt="image" /></a>
-                                            </div>
-
-                                            <div class="partner">
-                                                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/partners/3.png" alt="image" /></a>
-                                            </div>
-
-                                            <div class="partner">
-                                                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/partners/4.png" alt="image" /></a>
-                                            </div>
-
-                                            <div class="partner">
-                                                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/partners/5.png" alt="image" /></a>
-                                            </div>
-
-                                            <div class="partner">
-                                                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/partners/1.png" alt="image" /></a>
-                                            </div>
-
-                                            <div class="partner">
-                                                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/partners/2.png" alt="image" /></a>
-                                            </div>
-                                        </div>
-                                    </div><!-- /.wprt-partners -->
-
-                                    <div class="wprt-spacer" data-desktop="50" data-mobi="50" data-smobi="40"></div>
-                                </div><!-- /.col-md-12 -->
+                                <div class="col-md-4">
+                                    <div class="text-right text-center-mobile"><a href="/contact" class="wprt-button white rounded-3px">GET A QUOTE</a></div>
+                                </div><!-- /.col-md-4 -->
 
                             </div><!-- /.row -->
                         </div><!-- /.container -->

@@ -12,8 +12,8 @@
     background-color: #f7f7f7;
 }
 
-#facts.wprt-section {
-    background: url(../img/bg-section-facts.jpg) no-repeat center center;
+#why-us .row {
+    display: flex;
 }
 
 #promotion.wprt-section {

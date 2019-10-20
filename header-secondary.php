@@ -34,7 +34,7 @@
     $contact_classes = 'page no-sidebar header-style-1 menu-has-search';
 ?>
 
-<body <?php if (is_page_template('inc/template-blog.php')) {body_class($blog_classes);} elseif (is_page_template('inc/template-contact.php')) {body_class($contact_classes);} else {body_class($body_classes);} ?>>
+<body <?php if (is_page_template('inc/template-blog.php') || is_single()) {body_class($blog_classes);} elseif (is_page_template('inc/template-contact.php')) {body_class($contact_classes);} else {body_class($body_classes);} ?>>
 
 <div id="wrapper" class="animsition">
 <div id="page" class="clearfix">
@@ -54,7 +54,7 @@
 	            <div class="top-bar-socials">
 	                <div class="inner">
 	                    <span class="icons">
-                            <a href="https://www.facebook.com/SierraCrestConstruction" title="Facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+	                        <a href="https://www.facebook.com/SierraCrestConstruction" title="Facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
                             <a href="https://www.linkedin.com/in/sierracrestconstruction" title="LinkedIn"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
                             <a href="http://www.yelp.com/biz/sierra-crest-construction-and-developers-danville" title="Yelp"><span class="fa fa-yelp" aria-hidden="true"></span></a>
 	                    </span>
@@ -81,10 +81,6 @@
                 <nav id="main-nav" class="main-nav">
                     <ul class="menu">
                         <li class="menu-item current-menu-item"><a href="/">Home</a></li>
-                        <li class="menu-item"><a class="scroll-target" href="#features">Services</a></li>
-                        <li class="menu-item"><a class="scroll-target" href="#works">Portfolio</a></li>
-                        <li class="menu-item"><a class="scroll-target" href="#why-us">Why Us?</a></li>
-                        <li class="menu-item"><a class="scroll-target" href="#testimonials">Testimonials</a></li>
                         <li class="menu-item"><a href="/contact">Contact</a></li>
                     </ul>
                 </nav><!-- /#main-nav -->
