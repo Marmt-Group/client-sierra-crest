@@ -586,6 +586,12 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #107f3f; text
 	font-size: 16px;
 }
 
+/* Why Us Section
+-------------------------------------------------------------- */
+#why-us .toggle-content {
+	font-size: 16px;
+}
+
 /* Projects Section
 -------------------------------------------------------------- */
 .cbp-popup-lightbox-title, .cbp-popup-lightbox-counter {font-size: 16px;}
