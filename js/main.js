@@ -348,7 +348,6 @@
 
         popupVideo: function() {
             if ($().magnificPopup) {
-                console.log('yes')
                 $('.popup-video').each(function () {
                     $(this).magnificPopup({
                         disableOn: 700,
@@ -944,17 +943,17 @@
             if ( $().gmap3 ) {
                 var contentString = '<div id="content">'+
                     '<div>'+
-                    '<h5 style="margin: 5px 0 0">CONSTRUCTION</h5>'+
-                    '<p style="margin: 0 0 5px">Ultimate Construction Template</p>'+
+                    '<h5 style="margin: 5px 0 0">Sierra Crest Construction, Inc.</h5>'+
+                    '<p style="margin: 0 0 5px">4115 Blackhawk Plaza Circle, Ste. 100, Danville CA 94506</p>'+
                     '</div>';
                 $('#gmap')
                 .gmap3({
-                    center: [11.535478, 106.890631],
+                    center: [37.8009861, -121.9231047],
                     zoom: 14,
                     scrollwheel: false
                 })
                 .infowindow({
-                    position: [11.537034, 106.890167],
+                    position: [37.8009861, -121.9231047],
                     content: contentString
                 })
                 .then(function (infowindow) {
