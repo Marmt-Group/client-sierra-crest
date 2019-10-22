@@ -298,24 +298,24 @@ get_header();
                                         </div>
                                         <div class="wprt-spacer" data-desktop="50" data-mobi="30" data-smobi="30"></div>
 
-                                        <div class="wprt-toggle bg-white style-1">
-                                            <h3 class="toggle-title">Employees have many years of experience</h3>
-                                            <div class="toggle-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
-                                        </div>
-
                                         <div class="wprt-toggle bg-white active style-1">
-                                            <h3 class="toggle-title">Quality construction continues after the project</h3>
-                                            <div class="toggle-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
+                                            <h3 class="toggle-title">We don't cut corners</h3>
+                                            <div class="toggle-content">We're always driving this point home that <strong>our attention to detail is the difference</strong> because we want you to know that next to the competition, this is the difference. We don't cut corners like other contractors do to save a buck which always ends up being a future nightmare for the homeowner to fix.</div>
                                         </div>
 
                                         <div class="wprt-toggle bg-white style-1">
-                                            <h3 class="toggle-title">We use technology to do the job more quickly</h3>
-                                            <div class="toggle-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
+                                            <h3 class="toggle-title">We're trustworthy</h3>
+                                            <div class="toggle-content">We're honest hard working professionals and we've earned that reputation in the industry. You can trust us to get the job done how you want it and we go out of our way to earn your trust in the process.</div>
                                         </div>
 
                                         <div class="wprt-toggle bg-white style-1">
-                                            <h3 class="toggle-title">Employees are continually trained on safety issues</h3>
-                                            <div class="toggle-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
+                                            <h3 class="toggle-title">We're respected in the industry</h3>
+                                            <div class="toggle-content">We have strong relationships with local architects, city planners, governments and quality local vendors. We know exactly who to talk to to get you what you want. We only recommend the best vendors for you to get the kind of products you deserve.</div>
+                                        </div>
+
+                                        <div class="wprt-toggle bg-white style-1">
+                                            <h3 class="toggle-title">We have over 200 years of experience</h3>
+                                            <div class="toggle-content">We only employ seasoned professionals to get the job done right the first time and ensure you get a quality product. Between all of us at at Sierra Crest Construction we have combined over 200 years worth of experience in the field of construction.</div>
                                         </div>
                                     </div><!-- /.wprt-content-box -->
                                 </div><!-- /.col-md-6 -->
