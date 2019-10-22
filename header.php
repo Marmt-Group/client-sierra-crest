@@ -17,9 +17,9 @@
     <!-- Basic Page Needs -->
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Construction - Ultimate Construction Template</title>
-    <meta name="description" content="Template built for Construction Company, Building Services, Architecture, Engineering, Cleaning Service and other Construction related services">
-    <meta name="keywords" content=" architecture, builder, building, building company, cleaning services, construction, construction business, construction company">
+    <title>Sierra Crest Construction, Inc. - Our attention to detail is the difference!</title>
+    <meta name="description" content="California homeowners have trusted Sierra Crest Construction to remodel their homes for more than 30 years. We specialize in kitchen remodels, major expansions as well as new home construction.">
+    <meta name="keywords" content="architecture, builder, building, building company, construction, construction business, construction company, Danville construction companies, Bend construction companies, tri-valley construction companies, san ramon ca construction companies, residential construction, dublin ca construction companies, bend or construction companies, bend oregon, atheron ca construction companies, palo alto construction companies, piedmont ca construction companies, piedmont ca contractors, piedmont ca home remodels, blackhawk ca construction companies">
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Favicon and touch icons  -->
