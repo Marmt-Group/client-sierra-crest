@@ -269,13 +269,6 @@ get_header();
                                     <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
                                 </div><!-- /.col-md-3 -->
 
-                                <div class="col-md-3">
-                                    <div class="wprt-counter text-center accent-type">
-                                        <div class="number" data-speed="3000" data-to="12" data-in-viewport="yes">12</div>
-                                        <div class="text">AWARDS WON</div>
-                                    </div>
-                                </div><!-- /.col-md-3 -->
-
                                 <div class="col-md-12">
                                     <div class="wprt-spacer" data-desktop="103" data-mobi="60" data-smobi="60"></div>
                                 </div><!-- /.col-md-12 -->
