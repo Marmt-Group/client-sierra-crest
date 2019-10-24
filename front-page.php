@@ -380,17 +380,6 @@ get_header();
                                                 <div class="customer clearfix">
                                                     <div class="inner">
                                                         <div class="image"><img src="<?php echo get_template_directory_uri() ?>/assets/img/quote.svg" alt="image" /></div>
-                                                        <h4 class="name">GEORGE SLOWS</h4>
-                                                        <div class="position">Builder manager</div>
-                                                        <blockquote class="whisper">Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam suscipit, elit quis facilisis dictum, diam justo volutpat dui.</blockquote>
-                                                    </div>
-                                                </div>
-                                            </div><!-- /.cbp-item -->
-
-                                            <div class="cbp-item">
-                                                <div class="customer clearfix">
-                                                    <div class="inner">
-                                                        <div class="image"><img src="<?php echo get_template_directory_uri() ?>/assets/img/quote.svg" alt="image" /></div>
                                                         <h4 class="name">Michael Hench, M.D.</h4>
                                                         <div class="position">Doctor</div>
                                                         <blockquote class="whisper">As I look at my new house, and see all the hard work and time you put into it, there is not a day that goes by that I find another new aspect of my house to enjoy even more. I am continually impressed by the beauty and high quality of your work.</blockquote>
