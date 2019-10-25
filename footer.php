@@ -30,6 +30,7 @@
 							<li class="address item">4115 Blackhawk Plaza Circle, Ste. 100, Danville CA 94506</li>
 							<li class="phone item"><a href="tel:+19253628898">925-362-8898</a></li>
 							<li class="email item"><a href="mailto:ddavis@sierracrestconstruction.com">ddavis@sierracrestconstruction.com</a></li>
+							<li class="item">Contractor License #: B508522</li>
 						</ul>
 					</div>
 				</div>
