@@ -127,13 +127,13 @@
                 $(".animsition").animsition({
                     inClass: 'fade-in',
                     outClass: 'fade-out',
-                    inDuration: 1500,
-                    outDuration: 800,
+                    inDuration: 1000,
+                    outDuration: 500,
                     loading: true,
                     loadingParentElement: 'body',
                     loadingClass: 'animsition-loading',
                     timeout: false,
-                    timeoutCountdown: 5000,
+                    timeoutCountdown: 3000,
                     onLoadEvent: true,
                     browser: [
                         '-webkit-animation-duration',
