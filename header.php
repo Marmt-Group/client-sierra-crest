@@ -85,6 +85,7 @@
                         <li class="menu-item"><a class="scroll-target" href="#works">Portfolio</a></li>
                         <li class="menu-item"><a class="scroll-target" href="#why-us">Why Us?</a></li>
                         <li class="menu-item"><a class="scroll-target" href="#testimonials">Testimonials</a></li>
+                        <li class="menu-item"><a href="/faqs">FAQs</a></li>
                         <li class="menu-item"><a href="/contact">Contact</a></li>
                     </ul>
                 </nav><!-- /#main-nav -->
