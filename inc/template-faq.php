@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Blog Page
+* Template Name: FAQ Page
 *
 * @package sierra-crest-2019
 */
@@ -12,7 +12,7 @@ get_header('secondary');
     <div id="featured-title-inner" class="container clearfix">
         <div class="featured-title-inner-wrap">
             <div class="featured-title-heading-wrap">
-                <h1 class="featured-title-heading">Industry News</h1>
+                <h1 class="featured-title-heading">FAQs</h1>
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@ get_header('secondary');
         <div id="site-content" class="site-content clearfix">
             <div id="inner-content" class="inner-content-wrap">
 
-             <?php echo do_shortcode('[ajax_load_more id="1405140995" container_type="div" post_type="post" scroll_container="#inner-content"]'); ?>
+             <?php echo do_shortcode('[ultimate-faqs]'); ?>
 
             </div><!-- /.inner-content-wrap -->
         </div><!-- /#site-content -->

@@ -511,7 +511,7 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #107f3f; text
 	z-index: 999;
 }
 
-#hero-section .arrow:before {
+/* #hero-section .arrow:before {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -523,7 +523,7 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #107f3f; text
 	   -moz-animation: rotate 3s infinite linear;
 	     -o-animation: rotate 3s infinite linear;
 	        animation: rotate 3s infinite linear;
-}
+} */
 
 #hero-section .arrow:after {
 	content: "\f107";
