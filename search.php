@@ -31,8 +31,6 @@ get_header('secondary');
             <div id="inner-content" class="inner-content-wrap">
 				<div class="post-content-single-wrap">
 
-
-
 				<?php if (have_posts()) : while ( have_posts() ) : the_post(); ?>
 
                     <article class="hentry">
@@ -57,7 +55,7 @@ get_header('secondary');
 					
 				<?php endwhile; else : ?>
 
-				<h4>Sorry, no results</h4>
+					<h4><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></h4>
 
 				<?php endif; ?>
 
