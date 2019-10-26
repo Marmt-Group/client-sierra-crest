@@ -50,6 +50,8 @@ get_header('secondary');
 						<?php endif; ?>
 
 					</article>
+
+					<hr>
 					
 				<?php endwhile; ?>
 

@@ -30,7 +30,7 @@ get_header('secondary');
         <div id="site-content" class="site-content clearfix">
             <div id="inner-content" class="inner-content-wrap">
 
-			 <h5><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'sierra-crest-2019' ); ?></h5>
+			 <h5><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try searching below?', 'sierra-crest-2019' ); ?></h5>
 			 <br>
 
 			<?php
