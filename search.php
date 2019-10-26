@@ -33,11 +33,7 @@ get_header('secondary');
 
 
 
-				<?php 
-
-				if (have_posts()) :
-				
-				while ( have_posts() ) : the_post(); ?>
+				<?php if (have_posts()) : while ( have_posts() ) : the_post(); ?>
 
                     <article class="hentry">
 
@@ -59,10 +55,8 @@ get_header('secondary');
 
 					<hr>
 					
-				<?php endwhile; 
-				
-				else :
-				?>
+				<?php endwhile; else : ?>
+
 				<h4>Sorry, no results</h4>
 
 				<?php endif; ?>
