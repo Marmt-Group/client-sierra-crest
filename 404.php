@@ -7,54 +7,36 @@
  * @package sierra-crest-2019
  */
 
-get_header();
+get_header('secondary');
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+<!-- Featured Title -->
+<div id="featured-title" class="clearfix featured-title-left">
+    <div id="featured-title-inner" class="container clearfix">
+        <div class="featured-title-inner-wrap">
+            <div class="featured-title-heading-wrap">
+                <h1 class="featured-title-heading">Oops, 404!</h1>
+            </div>
+        </div>
+    </div>
+</div>
 
-			<section class="error-404 not-found">
-				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'sierra-crest-2019' ); ?></h1>
-				</header><!-- .page-header -->
+<!-- Main Content -->
+<div id="main-content" class="site-main clearfix">
+    <div id="content-wrap" class="container">
+        <div id="site-content" class="site-content clearfix">
+            <div id="inner-content" class="inner-content-wrap">
 
-				<div class="page-content">
-					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'sierra-crest-2019' ); ?></p>
+             <p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'sierra-crest-2019' ); ?></p>
 
 					<?php
 					get_search_form();
-
-					the_widget( 'WP_Widget_Recent_Posts' );
 					?>
 
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'sierra-crest-2019' ); ?></h2>
-						<ul>
-							<?php
-							wp_list_categories( array(
-								'orderby'    => 'count',
-								'order'      => 'DESC',
-								'show_count' => 1,
-								'title_li'   => '',
-								'number'     => 10,
-							) );
-							?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-					/* translators: %1$s: smiley */
-					$sierra_crest_2019_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'sierra-crest-2019' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$sierra_crest_2019_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
-				</div><!-- .page-content -->
-			</section><!-- .error-404 -->
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
+            </div><!-- /.inner-content-wrap -->
+        </div><!-- /#site-content -->
+    </div><!-- /#content-wrap -->
+</div><!-- /#main-content -->
 
 <?php
 get_footer();

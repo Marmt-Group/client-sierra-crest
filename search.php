@@ -7,49 +7,39 @@
  * @package sierra-crest-2019
  */
 
-get_header();
+get_header('secondary');
 ?>
+<!-- Main Content -->
+<div id="main-content" class="site-main clearfix">
+    <div id="content-wrap" class="container">
+        <div id="site-content" class="site-content clearfix">
+            <div id="inner-content" class="inner-content-wrap">
+				<div class="post-content-single-wrap">
 
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main">
+				<?php while ( have_posts() ) : the_post(); ?>
 
-		<?php if ( have_posts() ) : ?>
+                    <article class="hentry">
 
-			<header class="page-header">
-				<h1 class="page-title">
-					<?php
-					/* translators: %s: search query. */
-					printf( esc_html__( 'Search Results for: %s', 'sierra-crest-2019' ), '<span>' . get_search_query() . '</span>' );
-					?>
-				</h1>
-			</header><!-- .page-header -->
+                        <h2 class="post-title">
+                            <span class="post-title-inner">
+                                <?php the_title(); ?>
+                            </span>
+                        </h2><!-- /.post-title -->
 
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
+                        <div class="post-content">
+                            <?php the_content(); ?>
+                        </div><!-- /.post-excerpt -->
 
-				/**
-				 * Run the loop for the search to output the results.
-				 * If you want to overload this in a child theme then include a file
-				 * called content-search.php and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', 'search' );
+					</article>
+					
+				<?php endwhile; ?>
 
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
-
-		</main><!-- #main -->
-	</section><!-- #primary -->
+                </div><!-- /.post-content-single-wrap -->
+                
+            </div><!-- /.inner-content-wrap -->
+        </div><!-- /#site-content -->
+    </div><!-- /#content-wrap -->
+</div><!-- /#main-content -->
 
 <?php
-get_sidebar();
 get_footer();
