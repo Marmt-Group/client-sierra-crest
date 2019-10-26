@@ -62,7 +62,10 @@ get_header('secondary');
                 </div><!-- /.post-content-single-wrap -->
                 
             </div><!-- /.inner-content-wrap -->
-        </div><!-- /#site-content -->
+		</div><!-- /#site-content -->
+		<div class="col-md-12">
+            <div class="wprt-spacer" data-desktop="80" data-mobi="60" data-smobi="60"></div>
+        </div><!-- /.col-md-12 -->
     </div><!-- /#content-wrap -->
 </div><!-- /#main-content -->
 
