@@ -24,6 +24,9 @@ get_header('secondary');
 <!-- Main Content -->
 <div id="main-content" class="site-main clearfix">
     <div id="content-wrap" class="container">
+		<div class="col-md-12">
+            <div class="wprt-spacer" data-desktop="80" data-mobi="60" data-smobi="60"></div>
+        </div><!-- /.col-md-12 -->
         <div id="site-content" class="site-content clearfix">
             <div id="inner-content" class="inner-content-wrap">
 				<div class="post-content-single-wrap">
