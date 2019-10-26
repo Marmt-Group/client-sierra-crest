@@ -9,6 +9,18 @@
 
 get_header('secondary');
 ?>
+
+<!-- Featured Title -->
+<div id="featured-title" class="clearfix featured-title-left">
+    <div id="featured-title-inner" class="container clearfix">
+        <div class="featured-title-inner-wrap">
+            <div class="featured-title-heading-wrap">
+                <h1 class="featured-title-heading">Search Results</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Main Content -->
 <div id="main-content" class="site-main clearfix">
     <div id="content-wrap" class="container">
@@ -21,9 +33,11 @@ get_header('secondary');
                     <article class="hentry">
 
                         <h2 class="post-title">
-                            <span class="post-title-inner">
-                                <?php the_title(); ?>
-                            </span>
+							<a href="<?php the_permalink(); ?>">
+								<span class="post-title-inner">
+									<?php the_title(); ?>
+								</span>
+							</a>
                         </h2><!-- /.post-title -->
 
                         <div class="post-content">

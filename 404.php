@@ -27,11 +27,11 @@ get_header('secondary');
         <div id="site-content" class="site-content clearfix">
             <div id="inner-content" class="inner-content-wrap">
 
-             <p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'sierra-crest-2019' ); ?></p>
+             <h3><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'sierra-crest-2019' ); ?></h3>
 
-					<?php
-					get_search_form();
-					?>
+			<?php
+				get_search_form();
+			?>
 
             </div><!-- /.inner-content-wrap -->
         </div><!-- /#site-content -->
