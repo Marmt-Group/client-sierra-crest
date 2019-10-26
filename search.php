@@ -40,9 +40,11 @@ get_header('secondary');
 							</a>
                         </h2><!-- /.post-title -->
 
-                        <div class="post-content">
-                            <?php the_content(); ?>
-                        </div><!-- /.post-excerpt -->
+						<?php if (get_the_excerpt()) : ?>
+							<div class="post-content">
+								<?php the_excerpt(); ?>
+							</div><!-- /.post-excerpt -->
+						<?php endif; ?>
 
 					</article>
 					
