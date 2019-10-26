@@ -31,7 +31,13 @@ get_header('secondary');
             <div id="inner-content" class="inner-content-wrap">
 				<div class="post-content-single-wrap">
 
-				<?php while ( have_posts() ) : the_post(); ?>
+
+
+				<?php 
+
+				if (have_posts()) :
+				
+				while ( have_posts() ) : the_post(); ?>
 
                     <article class="hentry">
 
@@ -53,7 +59,13 @@ get_header('secondary');
 
 					<hr>
 					
-				<?php endwhile; ?>
+				<?php endwhile; 
+				
+				else :
+				?>
+				<h4>Sorry, no results</h4>
+
+				<?php endif; ?>
 
                 </div><!-- /.post-content-single-wrap -->
                 
