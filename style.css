@@ -609,6 +609,11 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #107f3f; text
 	#footer-widgets .posts-widget {margin-left: 35px;}
 }
 
+/* only show captcha badge on contact page, id 7 */
+body:not(.page-id-7) .grecaptcha-badge {
+    display: none;
+}
+
 /* Top Bar
 -------------------------------------------------------------- */
 #top-bar { font-size: 0.857em; position: relative; z-index: 1; }
@@ -1447,7 +1452,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 
 /* Scroll Top
 -------------------------------------------------------------- */
-#scroll-top {
+/* #scroll-top {
 	position: fixed !important;
 	right: 25px;
 	bottom: 0;
@@ -1480,7 +1485,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 	opacity: 1;
 	visibility: visible;
 	bottom: 45px;
-}
+} */
 
 /* Media Queries
 -------------------------------------------------------------- */

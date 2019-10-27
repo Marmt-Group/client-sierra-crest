@@ -82,7 +82,7 @@
                 self.matchHeight();
 
                 // Scroll to Top
-                self.scrollToTop();
+                // self.scrollToTop();
 
                 // Tweet Slider
                 self.tweetSlider();
@@ -584,22 +584,22 @@
             }
         },
 
-        scrollToTop: function() {
-            var scrollBtn = $('#scroll-top');
+        // scrollToTop: function() {
+        //     var scrollBtn = $('#scroll-top');
             
-            $(window).on('scroll', function() {
-                if ( $(this).scrollTop() > 800 ) {
-                    scrollBtn.addClass('show');
-                } else {
-                    scrollBtn.removeClass('show');
-                }
-            });
+        //     $(window).on('scroll', function() {
+        //         if ( $(this).scrollTop() > 800 ) {
+        //             scrollBtn.addClass('show');
+        //         } else {
+        //             scrollBtn.removeClass('show');
+        //         }
+        //     });
 
-            scrollBtn.on('click', function() {
-                $('html, body').animate({ scrollTop: 0 }, 1000 , 'easeInOutExpo');
-            return false;
-            });
-        },
+        //     scrollBtn.on('click', function() {
+        //         $('html, body').animate({ scrollTop: 0 }, 1000 , 'easeInOutExpo');
+        //     return false;
+        //     });
+        // },
 
         featuredMedia: function() {
             if ( $().cubeportfolio ) {
