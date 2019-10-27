@@ -667,7 +667,7 @@
                     showNavigation: true,
                     showPagination: true,
                     gridAdjustment: 'responsive',
-                    rewindNav: false,
+                    rewindNav: true,
                     auto: true,
                     mediaQueries: [{
                         width: 1500,
