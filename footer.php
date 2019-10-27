@@ -118,8 +118,6 @@
 </div><!-- /#page -->
 </div><!-- /#wrapper -->
 
-<a id="scroll-top">TOP</a>
-
 <?php wp_footer(); ?>
 
 <!-- Google Analytics -->
