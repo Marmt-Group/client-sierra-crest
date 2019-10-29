@@ -54,9 +54,10 @@
 	            <div class="top-bar-socials">
 	                <div class="inner">
 	                    <span class="icons">
-	                        <a href="https://www.facebook.com/SierraCrestConstruction" title="Facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                            <a href="https://www.linkedin.com/in/sierracrestconstruction" title="LinkedIn"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
-                            <a href="https://www.yelp.com/biz/sierra-crest-construction-and-developers-danville" title="Yelp"><span class="fa fa-yelp" aria-hidden="true"></span></a>
+	                        <a href="https://www.facebook.com/SierraCrestConstruction" target="_blank" title="Facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                            <a href="https://www.instagram.com/sierracrestconstruction" target="_blank" title="Instagram"><span class="fa fa-instagram" aria-hidden="true"></span></a>
+                            <a href="https://www.linkedin.com/in/sierracrestconstruction" target="_blank" title="LinkedIn"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+                            <a href="https://www.yelp.com/biz/sierra-crest-construction-and-developers-danville" target="_blank" title="Yelp"><span class="fa fa-yelp" aria-hidden="true"></span></a>
 	                    </span>
 	                </div>
 	            </div><!-- /.top-bar-socials -->
